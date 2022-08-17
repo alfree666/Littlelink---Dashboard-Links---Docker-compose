@@ -12,11 +12,10 @@ services:
         ports:
             - "8200:80"
             - "8443:443"
+        restart: unless-stopped    
+        
 
 
-You can now log in to the Admin Panel, on your defined ports, with the credentials:
-email: admin@admin.com
-password: 12345678
 
 
             
