@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+
+    littlelink:
+        image: julianprieber/littlelink-custom
+        container_name: littlelink
+        environment:
+            - TZ=Europe/Madrid
+            - PHP_MEMORY_LIMIT=512M
+            - UPLOAD_MAX_FILESIZE=24M
+        ports:
+            - "8200:80"
+            - "8443:443"
+
+
+You can now log in to the Admin Panel, on your defined ports, with the credentials:
+email: admin@admin.com
+password: 12345678
+
+
+            
