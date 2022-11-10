@@ -1,5 +1,5 @@
 # littlelink
-Littlelink - Dasboard Links - Docker compose
+Littlelink - Dashboard Links - Docker compose
 
 Ver en "localhost:8200"
 
